@@ -1,0 +1,252 @@
+h1{
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+}
+
+.fondoPaginaPrincipal{
+    background-image: url("../imagenes/fondoPrincipal.jpg");
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    height: 120px;
+    background-color: rgba(219, 91, 32, 0.938);
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+
+.estiloNavIndex{
+    background-color: transparent;
+}
+
+nav>div>img{
+    width: 100px;
+    margin: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 5px;
+    display: inline-block 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.estiloTituloPrincipal{
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    height: 100px;
+}
+.div-titulo h1{
+    width: 40%;
+    color: white;
+}
+
+.enlacesVerticales{
+    display: block;
+    margin-right: 100px;
+}
+
+.form-anuncio{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    margin: 15px 0px;
+    border-radius: 5px;
+    background-color: #dee;
+    border: 1px solid black;
+}
+
+small {
+    display: block;
+}
+
+.inputError{
+    border: 1px solid red;
+    color: red;
+}
+
+.danger {
+    color: red;
+    font-weight: bold;
+}
+
+
+#divRadiobutton{
+    display: flex;  
+    justify-content: center;  
+}
+
+#divRadiobutton label{
+    width: 150px;
+}
+
+#divRadiobutton input{
+    display: inline-block;
+    width: 20px;
+}
+
+#inputsFontAwesome{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputsFontAwesome input{
+    display: inline-block;
+    width: 70%;
+}
+#inputsFontAwesome img{
+    width: 20px;  
+}
+
+#txtRaza,#txtFechaNacimiento,#txtVacuna{
+    margin: 5px;
+}
+
+#estiloBotones{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    opacity: .8;
+    border: none;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+#btnGuardar{
+    background-color: rgb(36, 121, 231);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#btnCancelar{
+    background-color: rgb(221, 218, 44);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#agregar{
+    background-color: rgb(28, 155, 28);
+}
+
+#btnEliminar{
+    background-color: rgb(197, 12, 12);
+}
+
+.esconderBoton{
+    display: none;
+}
+
+.mostrarBoton{
+    display: inline-block;   
+}
+
+div small{
+    color: white;
+}
+
+#seccionTablaDinamica{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    text-transform: capitalize;
+    background-color: rgb(236, 104, 104);
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 3px 5px;
+}
+
+#spinner{
+    display: flex;
+    justify-content: center;
+}
+
+nav>div>small{
+    margin-right: 50px;
+}
+
+footer nav{
+    height: 90px;
+}
+
+
+@media screen and (max-width: 620px) {
+    #imgAdministracion{
+      display: none;
+    } 
+}
+  
+.containerMensaje{
+    width: 100%;
+    height: 10vh;
+    background:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mensajePersonalizado{
+
+    width: 400px;
+    background:rgb(110, 160, 253);
+    border-radius: 6px;
+    position: top;
+    top:0;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align:center;
+    color:#333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.visibilidadMensaje{
+    visibility: visible;
+    top: 50px;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.contenedorCheckbox{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}

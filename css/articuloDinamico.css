@@ -1,0 +1,33 @@
+#divArticuloDinamico{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: large;
+}
+
+.articuloDinamicos{
+    width: 450px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(255, 238, 183);    
+    border: 2px solid brown;
+}
+
+.articuloDinamicos>ul>li{
+    display: inline;
+    margin: 20px;
+}
+
+.articuloDinamicos p:nth-child(3){
+    color: rgb(124, 15, 7);
+    font-weight: bold;
+}
+
+.articuloDinamicos button{
+    width: 95%;
+    background-color: rgb(90, 6, 6);
+    font-weight: bold;
+    color: white;
+}
+
